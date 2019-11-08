@@ -19,7 +19,7 @@ const SmurfsForm = ({ errors, touched, status, props }) => {
 
   return (
     <div className="Smurf-Form">
-      <h1> Smurf Village </h1>
+      <h1> Add to Smurf Village </h1>
       <Form>
         <Field type="text" name="name" placeholder="name" />
         {touched.name && errors.name && <p className="error">{errors.name}</p>}

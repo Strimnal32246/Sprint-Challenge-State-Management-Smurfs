@@ -3,7 +3,7 @@ import { connect } from "react-redux";
 
 import { fetchSmurfs } from "../action/index";
 
-import Smurf from "./Smurf";
+import Smurfs from "./Smurfs";
 
 const SmurfsCard = props => {
   useEffect(() => {
@@ -16,7 +16,7 @@ const SmurfsCard = props => {
     <div>
       {props.error && <p>{props.error}</p>}
       {props.smurfInfo.map(info => (
-        <Smurf
+        <Smurfs
           key={info.id}
           info={info}
           height={info.height}

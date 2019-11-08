@@ -5,7 +5,7 @@ import {
   ADD_SMURFFAILURE,
   ADD_SMURFSUCCESS,
   START_ADDSMURF
-} from "../actions/index";
+} from "../action/index";
 
 const initialState = {
   smurfInfo: [],
